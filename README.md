@@ -1,37 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GenAI ProdEdge 2026 – IIT Kharagpur
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Secured **2nd Place** at **GenAI ProdEdge 2026**, a national-level Generative AI competition organized by the Entrepreneurship Cell (E-Cell), IIT Kharagpur in collaboration with TrueFoundry.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The competition challenged participants to design and build production-grade GenAI solutions addressing real-world enterprise problems. Competing against teams from leading engineering institutes across India, we developed a Retrieval-Augmented Generation (RAG) based data governance platform focused on enterprise security, compliance, and cost efficiency.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Problem Statement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+As enterprises increasingly adopt Large Language Models (LLMs), they face critical challenges:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Sensitive data leakage through AI applications
+* Lack of visibility into data access patterns
+* Rising inference and token costs
+* Compliance and governance risks
+* Inefficient retrieval pipelines leading to poor response quality
 
-## Learn More
+## Solution
 
-To learn more about Next.js, take a look at the following resources:
+Designed a RAG-powered Data Governance System that acts as a secure intelligence layer between enterprise data sources and LLM applications.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Key Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Secure document ingestion and indexing
+* Role-Based Access Control (RBAC)
+* Sensitive information detection and filtering
+* Intelligent retrieval pipelines for context optimization
+* Query auditing and governance tracking
+* Token usage monitoring and cost analytics
+* Enterprise-grade observability for AI workflows
 
-## Deploy on Vercel
+## Technical Architecture
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Data Layer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# TrueFoundaryComp
+* Enterprise documents
+* Internal knowledge bases
+* Structured and unstructured datasets
+
+### Processing Layer
+
+* Data preprocessing
+* Chunking and embedding generation
+* Vector database storage
+
+### Retrieval Layer
+
+* Semantic search
+* Context ranking
+* Access control enforcement
+
+### Generation Layer
+
+* LLM-powered response generation
+* Context-aware prompt engineering
+* Response validation and governance checks
+
+## Impact
+
+### Security
+
+* Reduced risk of sensitive information exposure
+* Improved compliance and governance controls
+
+### Cost Optimization
+
+* Minimized unnecessary token consumption
+* Improved retrieval precision to reduce LLM inference costs
+
+### Enterprise Readiness
+
+* Scalable architecture for production deployment
+* Governance-first approach for enterprise AI adoption
+
+## Achievement
+
+🏆 **2nd Place – GenAI ProdEdge 2026**
+
+Organized by:
+
+* IIT Kharagpur E-Cell
+* TrueFoundry
+
+Competed against top engineering institutes across India and presented a production-oriented GenAI solution focused on enterprise data governance, security, and LLM cost optimization.
+
+## Skills Demonstrated
+
+* Retrieval-Augmented Generation (RAG)
+* Large Language Models (LLMs)
+* Vector Databases
+* Enterprise AI Systems
+* AI Governance
+* Data Security
+* Prompt Engineering
+* System Design
+* Cost Optimization
+* Product Thinking
